@@ -8,5 +8,28 @@
     <artifactId>faction-claim-balances</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>bukkit-repo</id>
+            <url>http://repo.bukkit.org/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>factions-repo</id>
+            <url>http://ci.drtshock.net/job/FactionsUUID/15/maven-repository/repository/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>bukkit</artifactId>
+            <version>1.7.9-R0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.massivecraft</groupId>
+            <artifactId>Factions</artifactId>
+            <version>1.6.9.5-U0.1</version>
+        </dependency>
+    </dependencies>
 
 </project>
